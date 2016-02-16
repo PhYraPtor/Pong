@@ -4,6 +4,8 @@ from pygame.locals import *
 from math import *
 from sys import *
 
+    fps = 300
+
 winxmax = 720
 winymax = 480
 
@@ -76,7 +78,6 @@ def main():
     BASICFONT = pygame.font.Font('freesansbold.ttf', BASICFONTSIZE)
 
     fpsClock = pygame.time.Clock()
-    fps = 300
     displayWin = pygame.display.set_mode((winxmax, winymax))
     pygame.display.set_caption('Pong')
 
